@@ -3,10 +3,12 @@
   box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.1);
   background-color: #fff;
   margin-bottom: 40px;
-  padding: 40px 40px;
+  padding: 30px 40px;
   position: relative;
   border-radius: 0;
   .card {
+    margin-bottom: -23px;
+    margin-top: -10px;
     border: 0;
     #change{
       padding: 7px 0px;
@@ -29,12 +31,19 @@
     }
     .btn-exchange {
      
-      background-color: #5bc0de;
-      border-color: #5bc0de;
+        background-color: #5bc0de;
+        border-color: #5bc0de; 
+       
+      
       float: right;
         margin-bottom: 4%;
         margin-top: -3%;
       //border-radius: 0;
+      &:active{
+        background-color: #5bc0de;
+        border-color:#5bc0de;
+           
+      }
     }
     .form-group {
       margin-bottom: 20px;
@@ -49,6 +58,14 @@
   }
 }
 
+a { color: inherit;
+    &:hover{
+      color: inherit;
+    }
+    &:active{
+      color:inherit;
+    }
+ } 
 .card-description {
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 20px;
@@ -67,16 +84,17 @@
 */
 }
 
-.form-divider {
+.divider {
   margin: 1.875rem 0;
   font-size: 0.8em;
   letter-spacing: 0.2px;
   color: rgba(74, 74, 74, 0.3);
   border-bottom: 1px solid #ddd;
   line-height: 0;
+
 }
 
-.form-divider__text {
+.divider-text {
   background: #fff;
   padding: 0 20px;
 }
