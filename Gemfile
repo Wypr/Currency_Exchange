@@ -26,7 +26,7 @@ source 'https://rails-assets.org' do
 end
 
 
-
+gem 'font-awesome-sass', '~> 5.0.6'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
