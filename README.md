@@ -1,4 +1,4 @@
-# [Currency Exchange](https://pages.github.com/)
+# [Currency Exchange](https://wypr-exchange.herokuapp.com/)
 ![ruby](https://img.shields.io/badge/Ruby-2.3-red.svg)
 ![rails](https://img.shields.io/badge/Rails-5.0.1-red.svg)
 ![docker](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)
