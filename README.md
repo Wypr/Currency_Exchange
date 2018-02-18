@@ -1,32 +1,39 @@
 # README
 
-# Currency-Exhange
+# Currency Exhange
 
-Simple and fast currency conversion application: 
-Made for the purpose of learning more about Ruby on Rails.
+Simple and fast currency conversion application using [fixer.io](http://fixer.io/) API.
+![ruby](https://img.shields.io/badge/Ruby-2.3-red.svg).
+![rails](https://img.shields.io/badge/Rails-5.0.1-red.svg).
+![docker](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg).  
+[Site](https://pages.github.com/).
+[[https://github.com/Wypr/Currency_Exchange/tree/master/public/wallpaper.png|alt=wallpaper]]
+> Made for the purpose of learning more about Ruby on Rails.
 
 
+## Used Tools
+*Docker
+*Ruby on Rails
+*Capybara
+*RSpec
+*CoffeeScript
+*Boostrap
+*Continuous Integration
+*Heroku
 
+## System dependencies
+Any sytem with docker application.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
+Run
+```
+docker-compose build
+docker-compose run --rm website rails db:create db:migrate
+docker-compose up
+```
+acess: localhost:3000
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## How to run the test suite
+```
+docker-compose run --rm website rspec spec/
+```

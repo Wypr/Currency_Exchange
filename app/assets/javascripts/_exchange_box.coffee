@@ -29,7 +29,7 @@ $(document).ready ->
 
 
 $(document).ready ->
-  $('#change').click ->
+  $('#switch').click ->
     current_coin_of_currency = $('#currency').val();
     $('#currency').val($('#currency_destination').val())
     $('#currency_destination').val(current_coin_of_currency)
