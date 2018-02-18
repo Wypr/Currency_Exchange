@@ -1,7 +1,8 @@
 # [Currency Exhange](https://pages.github.com/)
 ![ruby](https://img.shields.io/badge/Ruby-2.3-red.svg)
 ![rails](https://img.shields.io/badge/Rails-5.0.1-red.svg)
-![docker](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)  
+![docker](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)
+[![Codeship Status for Wypr/Currency_Exchange](https://app.codeship.com/projects/88641dd0-f692-0135-0632-264fc352789c/status?branch=master)](https://app.codeship.com/projects/274561)
 
 Simple and fast currency conversion application using [Fixer](http://fixer.io/) API. 
 
