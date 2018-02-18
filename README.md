@@ -1,12 +1,12 @@
-# Currency Exhange
+# [Currency Exhange](https://pages.github.com/)
 
-Simple and fast currency conversion application using [fixer.io](http://fixer.io/) API.
+Simple and fast currency conversion application using [fixer.io](http://fixer.io/) API. 
 
 ![ruby](https://img.shields.io/badge/Ruby-2.3-red.svg).
 ![rails](https://img.shields.io/badge/Rails-5.0.1-red.svg).
 ![docker](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg).  
 
-[Site](https://pages.github.com/).
+
 
 ![Currency Exchange](https://github.com/Wypr/Currency_Exchange/blob/master/public/wallpaper.png)
 
@@ -16,14 +16,14 @@ Simple and fast currency conversion application using [fixer.io](http://fixer.io
 
 
 ## Used Tools
-*Docker
-*Ruby on Rails
-*Capybara
-*RSpec
-*CoffeeScript
-*Boostrap
-*Continuous Integration
-*Heroku
+- Docker
+- Ruby on Rails
+- Capybara
+- RSpec
+- CoffeeScript
+- Boostrap
+- Continuous Integration
+- Heroku
 
 ## System dependencies
 Any sytem with docker application.
